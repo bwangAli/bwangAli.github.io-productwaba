@@ -1,0 +1,149 @@
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.featurette-divider {
+  margin: 5rem 0;
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+
+  letter-spacing: -0.05rem;
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.col.box::hover {
+  box-shadow: #000000;
+  transform: scale(1.02);
+}
+.pa{
+  margin: 143px 8px 28px 140px;
+}
+.par{
+  color:#0f0358;
+}
+.footer {
+  margin-top: 95px;
+}
+
+.footer .address p {
+  padding: 2px;
+}
+
+.footer .address img {
+  width: 25%;
+  height: 25%;
+}
+
+.address .address1::after {
+  content: "\a";
+  white-space: pre;
+}
+
+.address .address2::after {
+  content: "\a";
+  white-space: pre;
+}
+
+.footer li {
+  list-style-type: none;
+}
+
+.footer_newsletter_title {
+  color: #707070;
+  font-family: "poppins";
+  font-weight: bold;
+}
+
+#footer_email_btn {
+  color: white;
+  font-family: "poppins";
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff6c20;
+  width: 125px;
+  height: 35px;
+}
+
+.footer_email {
+  width: 563px;
+  height: 35px;
+  border-radius: 10px;
+  border: solid 1px #dadada;
+  background-color: #fff;
+}
+
+.footer_copyright {
+  background: #f2f2f2;
+  color: #707070;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+}
